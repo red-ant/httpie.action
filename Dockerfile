@@ -20,7 +20,7 @@ RUN apt-get update -y && \
   apt-get install -y --no-install-recommends jq && \
   rm -rf /var/lib/apt/lists/* && \
   pip install --upgrade pip && \
-  pip install --upgrade pipenv && \
+  pip install pipenv==2018.11.26 && \
   pipenv install --deploy --system
 
 ENV HTTPIE_CONFIG_DIR /.httpie
