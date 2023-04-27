@@ -1,4 +1,4 @@
-FROM python:3-slim-stretch
+FROM python:3-slim
 
 LABEL name="HTTP client for GitHub Actions"
 LABEL version="1.0.3"
@@ -20,7 +20,7 @@ RUN apt-get update -y && \
   apt-get install -y --no-install-recommends jq && \
   rm -rf /var/lib/apt/lists/* && \
   pip install --upgrade pip && \
-  pip install pipenv==2018.11.26 && \
+  pip install pipenv && \
   pipenv install --deploy --system
 
 ENV HTTPIE_CONFIG_DIR /.httpie
