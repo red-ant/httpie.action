@@ -127,13 +127,6 @@
             "index": "pypi",
             "version": "==0.3.1"
         },
-        "httpie-aws-auth": {
-            "hashes": [
-                "sha256:1af0b0a7430cc3246a570a8dd0e17dd9251c7e978e6c6b7cab77f566801ba14e"
-            ],
-            "index": "pypi",
-            "version": "==0.0.3"
-        },
         "httpie-hmac-auth": {
             "hashes": [
                 "sha256:c8912ddf803c5d66aa4409d034f592f268f612c7d31451bde54c05edfd82e7b9"
