@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.12
 
 LABEL name="HTTP client for GitHub Actions"
 LABEL version="1.0.3"
